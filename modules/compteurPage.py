@@ -10,7 +10,7 @@ drive = os.environ["SystemDrive"]
 
 locate = os.getcwd()
 
-pathCompteur = "{}\\setup\\assets\\compteur.htm".format(locate)
+pathCompteur = "{}\\setup\\assets\\compteur.html".format(locate)
 internetExplorer = "start iexplore.exe {}".format(pathCompteur)
 chrome = "start chrome.exe {}".format(pathCompteur)
 edge = "msedge.exe {}".format(pathCompteur)
